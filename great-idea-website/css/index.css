@@ -67,30 +67,27 @@ h1, h2, h3, h4, h5 {
 body{
 	max-width: 100%;
 }
-
+/*entire page*/
 .container {
 	margin: auto; 
 	width: 95%; 
 	border: 1px solid red;
 }
 
-header{
-	display: inline-block;
-	width: 100%;
-}
-
+/*navigation bar with logo*/
 header nav{
  width: 80%; 
  display: inline-block;
 }
 
+/*navigation bar*/
 header nav a{
 margin:0 5%; 
 color:gray; 
 text-decoration: none;
 
 }
-
+/*Great idea logo*/
 .logo{
 	border:1px solid red;
 	margin-top: 20px;
@@ -98,8 +95,55 @@ text-decoration: none;
 
 .cta{
 	display: inline-block; 
+	border: 1px solid red; 
 }
 
-.main-content .top-content{
+.top-content{
+	border: 3px solid black;
+}
+.top-content .text-content div{
+	border: 1px solid red;
+	display: inline-block;
+	width: 45%;
+	/*margin: 0 3%;*/
+}
+	
+
+.bottom-content .text-content div{
+	border: 3px solid blue;
+	display: inline-block;
+	width: 33%;
+	line-height: 20px;
 	
 }
+
+ .cta-text p{
+	border: 3px solid black;
+    padding: 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*incase header messes up 
+
+header{
+	display: inline-block;
+	width: 100%;
+}
+
+*/

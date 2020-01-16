@@ -71,7 +71,7 @@ body{
 .container {
 	margin: auto; 
 	width: 95%; 
-	border: 1px solid red;
+	
 }
 
 /*navigation bar with logo*/
@@ -92,35 +92,66 @@ text-decoration: none;
 	border:1px solid red;
 	margin-top: 20px;
 }
-
+/* innovation on demand text and image*/
 .cta{
 	display: inline-block; 
 	border: 1px solid red; 
+	width: 50%;
+}
+/* entire middle section of page*/
+.main-content{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 5% 0;
 }
 
-.top-content{
-	border: 3px solid black;
-}
+/* top content of the middle section*/
 .top-content .text-content div{
-	border: 1px solid red;
+	/*border-top: 2px solid black;
+	padding-top: 5%;*/
 	display: inline-block;
 	width: 45%;
-	/*margin: 0 3%;*/
+	margin-top: 50px;
+	margin-bottom: 50px; 
 }
 	
-
+/*bottom content of the middle section*/
 .bottom-content .text-content div{
-	border: 3px solid blue;
+	/*border-bottom: 2px solid black;
+	padding-bottom: 5%; */
 	display: inline-block;
 	width: 33%;
 	line-height: 20px;
+	margin: 50px 0;
 	
 }
 
- .cta-text p{
-	border: 3px solid black;
-    padding: 10px 15px;
+.cta-text div{
+	display: inline-block;
+	width: 50%;
+
 }
+
+ .cta-text p{
+	border: 2px solid black;
+	padding: 10px 15px;
+	display: inline;
+}
+
+.contact-info{
+	padding: 5% 0;
+}
+
+.contact-info p{
+	padding: 10px 0;
+}
+
+footer{
+	text-align: center;
+	padding-bottom: 200px; 
+}
+
+
 
 
 

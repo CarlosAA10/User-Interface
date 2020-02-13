@@ -69,35 +69,37 @@ body{
 }
 /*entire page*/
 .container {
-	margin: auto; 
-	width: 95%; 
+	/* margin: auto; 
+	width: 95%;  */
+
+	width: 900px;
+	margin: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 1px solid black;
+	display: inline-block; 
 	
 }
 
 /*navigation bar with logo*/
 header nav{
- width: 80%; 
+ width: 79%; 
  display: inline-block;
 }
 
 /*navigation bar*/
 header nav a{
-margin:0 5%; 
+margin:0 3%; 
 color:gray; 
 text-decoration: none;
 
 }
 /*Great idea logo*/
 .logo{
-	border:1px solid red;
 	margin-top: 20px;
 }
-/* innovation on demand text and image*/
-.cta{
-	display: inline-block; 
-	border: 1px solid red; 
-	width: 100%;
-}
+
+
 /* entire middle section of page*/
 .main-content{
 	border-top: 2px solid black;
@@ -105,15 +107,19 @@ text-decoration: none;
 	padding: 5% 0;
 }
 
-/* top content of the middle section*/
-.top-content .text-content div{
-	/*border-top: 2px solid black;
-	padding-top: 5%;*/
-	display: inline-block;
-	width: 45%;
-	margin-top: 50px;
-	margin-bottom: 50px; 
+.main-content .text-content{
+	display:inline-block;
 }
+
+/* not to be confused with bottom content text-content*/ 
+
+.text-content div{
+	width: 46%; 
+	display:inline-block;
+	margin-left: 1%;
+	line-height: 20px; 
+}
+
 /* coding img in middle section*/
 .middle-img{
 	width: 100%; 
@@ -121,26 +127,54 @@ text-decoration: none;
 	
 /*bottom content of the middle section*/
 .bottom-content .text-content div{
-	/*border-bottom: 2px solid black;
-	padding-bottom: 5%; */
 	display: inline-block;
-	width: 33%;
+	width: 30%;
 	line-height: 20px;
 	margin: 50px 0;
+	margin-left: 1%;
 	
 }
-/* innovation on demand, get started, and coding circle img*/
-.cta-text div{
-	display: inline-block;
-	width: 100%;
 
+.call2act{
+	padding:4%; 
 }
-/*get started box*/
- .cta-text p{
-	border: 2px solid black;
-	padding: 10px 20px;
-	display: inline;
+
+/* innovation on demand text and image*/
+.cta{
+	width:50%;
+	margin: auto;
+	margin-right: 40px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	display:inline-block;
+	text-align:center;
 }
+
+/* innovation on demand, get started, and coding circle img*/
+.cta-text{
+	font-size: 60px; 
+	padding-top: 50px; 
+}
+
+/* get started button*/
+button {
+	width: 180px;
+	height: 35px;
+	margin-left: 120px;
+	border: 1px solid black; 
+	font-size: 1em;
+	text-align:center;
+	font-family: 'Titillium Web', sans-serif; 
+	display: block;
+}
+
+.cta-img{
+	width: 34%;
+	float: right; 
+	margin-right: 20px; 
+	margin-bottom: 10px; 
+}
+
 /* adds padding between the contact info and bottom content*/
 .contact-info{
 	padding: 5% 0;
@@ -152,7 +186,7 @@ text-decoration: none;
 /* copy right info*/
 footer{
 	text-align: center;
-	padding-bottom: 200px; 
+	padding-bottom: 20px; 
 }
 
 

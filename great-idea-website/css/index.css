@@ -167,6 +167,26 @@ button {
 	font-family: 'Titillium Web', sans-serif; 
 	display: block;
 }
+/* Animation effect on button hover */
+
+button:hover{
+	background-color:cyan;
+	animation-name: Colors; 
+	animation-duration: 12s; 
+	animation-iteration-count: infinite; 
+}
+
+@keyframes Colors{
+	0% {color: lightgreen; background-color:grey;}
+	16% {color: lightyellow; background-color:cyan;}
+	32% {color: yellow;background-color:darkcyan;}
+	48% {color: palevioletred; background-color:mediumspringgreen;}
+	64% {color:royalblue ; background-color:lightseagreen;}
+	80% {color:limegreen ; background-color:lightskyblue;}
+	100% {color: orange; background-color:cornflowerblue;}
+
+
+}
 
 .cta-img{
 	width: 34%;
